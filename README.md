@@ -1,4 +1,4 @@
-# Primeros pasos
+# Iniciando con lenguaje C
 
 ## Preparar el entorno
 * Para trabajar con C, el codigo necesita ser compilado
