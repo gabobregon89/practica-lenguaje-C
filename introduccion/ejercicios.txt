@@ -1,0 +1,130 @@
+🧩 10 Ejercicios Progresivos en C (de principiante a sólido)
+🥇 1. Hola mundo y variables
+
+Objetivo: aprender la estructura básica del programa, imprimir texto y usar variables.
+
+🧠 Conceptos: printf, int, float, char.
+
+👉 Ejercicio:
+Crea un programa que pida tu nombre, edad y altura, y luego los muestre en pantalla.
+
+// Ejemplo de salida:
+// Ingresa tu nombre: Gabo
+// Ingresa tu edad: 22
+// Ingresa tu altura: 1.75
+// Hola Gabo, tenés 22 años y medís 1.75 metros.
+
+🥈 2. Operaciones matemáticas básicas
+
+Objetivo: trabajar con operadores y entrada de datos.
+
+🧠 Conceptos: scanf, + - * / %
+
+👉 Ejercicio:
+Hacer una calculadora simple que sume, reste, multiplique y divida dos números.
+
+🥉 3. Condicionales
+
+Objetivo: aplicar if, else, switch.
+
+🧠 Conceptos: operadores lógicos, estructura de decisión.
+
+👉 Ejercicio:
+Pedir una nota del 1 al 10 y mostrar si el alumno aprueba, recupera o desaprueba.
+Bonus: hacelo también con switch.
+
+🧱 4. Bucles for y while
+
+Objetivo: practicar ciclos repetitivos.
+
+🧠 Conceptos: for, while, do-while
+
+👉 Ejercicio:
+Mostrar los números del 1 al 100.
+Luego mostrar solo los pares, y después calcular la suma de los impares.
+
+🔢 5. Arreglos (arrays)
+
+Objetivo: manejar listas de datos del mismo tipo.
+
+🧠 Conceptos: arrays, índices, for.
+
+👉 Ejercicio:
+Leer 5 números enteros y mostrar:
+
+el mayor
+
+el menor
+
+el promedio
+
+💬 6. Strings
+
+Objetivo: trabajar con texto (arrays de char).
+
+🧠 Conceptos: char[], gets, fgets, strlen, strcpy, strcmp.
+
+👉 Ejercicio:
+Pedir al usuario una palabra y mostrar cuántas letras tiene y si es un palíndromo (se lee igual al revés).
+
+⚙️ 7. Funciones
+
+Objetivo: dividir el código en partes reutilizables.
+
+🧠 Conceptos: declaración, definición, paso de parámetros y retorno.
+
+👉 Ejercicio:
+Hacer una función que reciba un número y devuelva:
+
+1 si es primo
+
+0 si no lo es
+
+Luego usarla en main() para mostrar los primos del 1 al 100.
+
+🧭 8. Punteros
+
+Objetivo: entender direcciones de memoria y cómo manipularlas.
+
+🧠 Conceptos: *, &, paso por referencia.
+
+👉 Ejercicio:
+Hacer una función que reciba dos enteros por referencia e intercambie sus valores.
+
+// Antes: a = 5, b = 10
+// Después: a = 10, b = 5
+
+🧰 9. Estructuras (struct)
+
+Objetivo: agrupar distintos tipos de datos.
+
+🧠 Conceptos: struct, arrays de estructuras.
+
+👉 Ejercicio:
+Crear una estructura Persona con nombre, edad y DNI.
+Pedir datos de 3 personas y mostrar la de mayor edad.
+
+💾 10. Archivos
+
+Objetivo: leer y escribir en archivos de texto.
+
+🧠 Conceptos: FILE *, fopen, fprintf, fscanf, fclose.
+
+👉 Ejercicio:
+Crear un programa que:
+
+Pida nombre y edad de varios usuarios.
+
+Guarde esos datos en personas.txt.
+
+Luego lea ese archivo y muestre las personas guardadas.
+
+🧠 Nivel extra (cuando domines los 10)
+
+Calculadora con menú interactivo.
+
+Juego de “Adivina el número”.
+
+Sistema de registro de notas usando archivos.
+
+Leer un archivo de texto y contar cuántas palabras tiene.
