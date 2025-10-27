@@ -12,15 +12,17 @@ int main() {
     printf("Bienvenido al programa, acontinuacion se te pedira que ingreses tus datos.\n");
 
     printf("Ingresa tu nombre: ");
-    scanf("%s", nombre);
+    scanf("%s", &nombre);
 
     printf("Ingresa tu edad: ");
     scanf("%d", &edad);
 
     printf("Ingresa tu altura (en metros): ");
+
+    // SCANF --> para leer datos por teclado
     scanf("%f", &altura);
 
-    printf("Hola %s, tenes %d años y medis %.2f metros.\n", nombre, edad, altura);
+    printf("Hola %s, tenes %d anios y medis %.2f metros.\n", nombre, edad, altura);
 
     return 0;
 }
