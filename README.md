@@ -2,8 +2,11 @@
 
 ## Preparar el entorno
 * Para trabajar con C, el codigo necesita ser compilado
-En mi caso que tengo Windows use --> MinGW
+En mi caso que tengo Windows use --> MinGW - MSYS2
 [https://www.mingw-w64.org]
+[https://www.msys2.org/]
+
+* Luego hay que configurar las variables de entorno, agregando al path la ruta del bin
 
 * El IDE que utilizo es VS Code
 Agrego las extensiones C/C++ y Code Runner
