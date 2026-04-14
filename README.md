@@ -19,3 +19,16 @@ Agrego las extensiones C/C++ y Code Runner
     **introduccion/unPocoMas.exe**
 
   Aclaración: le agrego introduccion antes del nombre de mi archivo porque es ahi donde se creo el mismo, es decir, la ruta donde se encuentra
+
+* Pero para asegurarme que se genere correctamente la compilación, agrego la consola **MSYS2 UCRT64** entre las opciones de VS Code
+  - Me dirijo a las siguientes opciones en mi IDE --> File → Preferences → Settings
+  - Busco "terminal profiles windows" y abro el archivo .json
+  - Busco la anotación "terminal.integrated.profiles.windows" y agrego lo siguiente:
+  - "MSYS2 UCRT64": {
+      "path": "C:\\msys64\\usr\\bin\\bash.exe",
+      "args": ["--login", "-i"],
+      "env": {
+        "MSYSTEM": "UCRT64",
+        "CHERE_INVOKING": "1"
+      }
+    }
