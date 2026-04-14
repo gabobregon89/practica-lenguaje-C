@@ -8,6 +8,12 @@ int main() {
     printf("*****************************************\n");
     printf("Carrera: Tecnico Superior en Accion\n");
     printf("*****************************************\n");
+    printf("*****************************************\n");
+    printf("Carrera: Tecnico Superior en Accion\n");
+    printf("*****************************************\n");
+    printf("*****************************************\n");
+    printf("Carrera: Tecnico Superior en Accion\n");
+    printf("*****************************************\n");
 
 
     return 0;
