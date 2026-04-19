@@ -5,11 +5,17 @@ int main(int argc, char *argv[]) {
 	// Antonella Mierez, Santiago Yurca, Danesa Benitez, 
 	// Gerardo Gamarra, Gabriel Obregon
 	
-	// 1.1	Indicar si un número es par o impar.
+	// 1.1	Indicar si un nï¿½mero es par o impar.
 	int numero;
 	
 	printf("Ingresa un numero entero: ");
-	scanf("%d", &numero);
+	// scanf("%d", &numero);
+
+	// Valida si el dato ingresado por el usuario es un numero o no
+	if (scanf("%d", &numero) != 1) {
+        printf("Error: no ingresaste un numero valido\n");
+        return 1;
+    }
 	
 	if (numero % 2 == 0) printf("El numero ingresado es par");
 	else printf("El numero ingresado es impar");
