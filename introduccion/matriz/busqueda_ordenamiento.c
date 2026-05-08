@@ -1,11 +1,12 @@
 #include <stdio.h>
 
+void ordenar (int lista[]);
 int buscar (int lista[],int num);
 
 int main() 
 
 {
-    int a[10]={1,3,3,4,5,7,7,7,9,10};
+    int a[10]={2,5,4,3,6,3,9,7,12,11};
 	int i,acum,pos,bus,z,enc;
 	float prom;
 	i=0;
@@ -24,17 +25,19 @@ int main()
 	
 	printf("\n\n Promedio:%f",prom);
 	
-	printf("\n\nIgrese posicion a buscar");
+	printf("\n\nIgrese posici�n a buscar");
 	scanf("%i",&pos);
 		
-	if (pos < 0 || pos >9) printf("\n Posicion fuera de rango");
-	else printf("\n Valor %i en la posicion % i",a[pos],pos);
+	if (pos < 0 || pos >9) printf("\n Posici�n fuera de rango");
+	else printf("\n Valor %i en la posici�n % i",a[pos],pos);
+	
+	ordenar(a);
 	
 	printf("\n\nIgrese valor a buscar");
 	scanf("%i",&bus);
 	/*busqueda para un arreglo sin elementos repetidos*/
 	i=0;
-	
+		
 	z=buscar(a,bus);
 	
 	if (z==0) printf("Elemento no encontrado");
@@ -52,6 +55,29 @@ int main()
 return 0;
 
 }  
+
+void ordenar (int lista[])
+{
+	
+	int n,t,i, j;
+	n=10;
+	for(i = 0; i < n; i++)
+		for(j = n-1; j >= i; j--)
+		if (lista[j] > lista[j+1]) /* orden ascendente */
+	{
+			t = lista[j];
+			lista[j] = lista[j+1];
+			lista[j+1] = t;
+			
+	}
+		for(i = 0;i < n;i++)
+			printf("%d %d \n",i,lista[i]);
+		
+		
+		
+}
+
+
 
 int buscar (int lista[],int num)
 {

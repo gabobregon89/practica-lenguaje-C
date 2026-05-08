@@ -2,7 +2,16 @@
 
 int main()
 {
-	int lista[9]= {0, 4,5 ,7, 32, 40, 77, 100,123};
+
+	/* Busqueda Binaria (o Dicotomica): es un algoritmo de busqueda que se utiliza para encontrar la posicion de un elemento en un arreglo ORDENADO..
+    El algoritmo divide el arreglo en dos partes iguales y compara el elemento buscado con el elemento del medio.
+    Si el elemento buscado es igual al elemento del medio, se ha encontrado el elemento.
+    Si el elemento buscado es menor que el elemento del medio, se busca en la mitad inferior del arreglo.
+    Si el elemento buscado es mayor que el elemento del medio, se busca en la mitad superior del arreglo.
+    Este proceso se repite hasta que se encuentra el elemento o se determina que no esta presente en el arreglo. */
+
+
+	int lista[9]= {0, 4, 5 ,7, 32, 40, 77, 100, 123};
 	int i,inicio,final,medio,num; 
 	
 	for(i = 0; i < 9; i++)
